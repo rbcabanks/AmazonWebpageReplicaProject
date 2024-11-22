@@ -6,7 +6,7 @@ body {
 .container {
     display: grid;
     font-family: sans-serif;
-    grid-template-columns: 120px 220px 560px 100px 120px 80px 100px;
+    grid-template-columns: 120px 220px 560px 100px 120px 80px 90px;
     grid-template-rows: 60px;
     color: white;
 
@@ -18,8 +18,7 @@ body {
 }
 
 .logo {
-    display: block;
-    margin: auto auto auto auto;
+    align-items: center;
     width: 120px;
 }
 
@@ -42,6 +41,7 @@ body {
     display: block;
     align-self: flex-end;
     margin-bottom: 17px;
+    margin-left: 10px;
     height: 22px;
     width: 20px;
     opacity: 0.5;
@@ -136,4 +136,11 @@ body {
     color: white;
     border: none;
     font-weight: bold;
+}
+.cart{
+    scale: .8;
+    display: block;
+    position: relative;
+    left: -10px;
+
 }
