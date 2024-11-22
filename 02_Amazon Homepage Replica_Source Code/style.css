@@ -1,0 +1,139 @@
+/* WRITE YOUR CSS CODE HERE */
+body {
+    background-color: rgba(21, 23, 33, 255)
+}
+
+.container {
+    display: grid;
+    font-family: sans-serif;
+    grid-template-columns: 120px 220px 560px 100px 120px 80px 100px;
+    grid-template-rows: 60px;
+    color: white;
+
+}
+
+.sec {
+    display: flex;
+    border: 1px solid floralwhite;
+}
+
+.logo {
+    display: block;
+    margin: auto auto auto auto;
+    width: 120px;
+}
+
+.location {
+    align-self: center;
+    line-height: 0.2;
+}
+
+.deliverTo {
+    opacity: 0.5;
+    font-size: 13px;
+}
+
+.locUpdate {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.locationImg {
+    display: block;
+    align-self: flex-end;
+    margin-bottom: 17px;
+    height: 22px;
+    width: 20px;
+    opacity: 0.5;
+}
+
+#searchDrop {
+    background-color: rgb(218, 218, 218);
+    align-self: center;
+    width: 60px;
+    height: 40px;
+    border-radius: 5px 0px 0px 5px;
+}
+
+.searchB {
+    align-self: center;
+    height: 34px;
+    width: 100%;
+
+}
+
+.search {
+    background-color: rgb(255, 235, 132);
+    width: 60px;
+    align-self: center;
+    height: 43px;
+    background-image: url(images/search.png);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    border-radius: 0px 5px 5px 0px;
+}
+
+.search:hover {
+    background-color: rgb(172, 159, 92);
+}
+
+.languages:has(option[value="EN"]:checked) {
+    background-image: url(images/united-states.png);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: 4px 50%;
+}
+
+.languages:has(option[value="IN"]:checked) {
+    background-image: url(images/india.png);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: 4px 50%;
+}
+
+.languages {
+    background-color: transparent;
+    border: none;
+    margin-left: 16px;
+    color: white;
+    padding-left: 25px;
+    font-weight: bold;
+}
+
+.signIn {
+    align-self: center;
+    line-height: .01;
+}
+
+.Intro {
+    font-size: 13px;
+    padding-left: 3px;
+    position: relative;
+    top: 1px;
+}
+.Return {
+    font-size: 13px;
+    position: relative;
+    top: 1px;
+}
+.returns{
+    text-align: left;
+    padding-left:5px;
+}
+.Orders{
+    position: relative;
+    bottom: 11px;
+    font-size: 13px;
+    font-weight: bold;
+}
+#accounts {
+    position: relative;
+    bottom: 4px;
+    font-size: 13px;
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-weight: bold;
+}
