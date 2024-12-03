@@ -6,7 +6,8 @@ body {
 .container {
     display: grid;
     font-family: sans-serif;
-    grid-template-columns: 120px 220px 560px 100px 120px 80px 90px;
+    /*grid-template-columns: 120px 220px 560px 100px 120px 80px 90px;*/
+    grid-template-columns: 9.3% 17.1% 43.4% 7.8% 9.3% 6.2% 7%;
     grid-template-rows: 60px;
     color: white;
 
@@ -14,7 +15,6 @@ body {
 
 .sec {
     display: flex;
-    border: 1px solid floralwhite;
 }
 
 .logo {
